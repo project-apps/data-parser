@@ -5,8 +5,14 @@ import java.io.Serializable;
 public class AuthUser implements Serializable {
 	private static final long serialVersionUID = 5439945553603054387L;
 
+	private String firstName;
+	
+	private String lastName;
+	
 	private String name;
-
+	
+	private String username;
+	
 	private String email;
 
 	private String imageUrl;
@@ -74,6 +80,30 @@ public class AuthUser implements Serializable {
 
 	public void setProviderId(String providerId) {
 		this.providerId = providerId;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	@Override
