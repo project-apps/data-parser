@@ -109,23 +109,29 @@ public class AuthUser implements Serializable {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("AuthUser [name=");
+		builder.append("{\"firstName\":\"");
+		builder.append(firstName);
+		builder.append("\",\"lastName\":\"");
+		builder.append(lastName);
+		builder.append("\",\"name\":\"");
 		builder.append(name);
-		builder.append(", email=");
+		builder.append("\",\"username\":\"");
+		builder.append(username);
+		builder.append("\",\"email\":\"");
 		builder.append(email);
-		builder.append(", imageUrl=");
+		builder.append("\",\"imageUrl\":\"");
 		builder.append(imageUrl);
-		builder.append(", emailVerified=");
+		builder.append("\",\"emailVerified\":\"");
 		builder.append(emailVerified);
-		builder.append(", password=");
+		builder.append("\",\"password\":\"");
 		builder.append(password);
-		builder.append(", provider=");
+		builder.append("\",\"provider\":\"");
 		builder.append(provider);
-		builder.append(", providerId=");
+		builder.append("\",\"providerId\":\"");
 		builder.append(providerId);
-		builder.append("]");
+		builder.append("\"}");
 		return builder.toString();
 	}
 
-	
+			
 }
