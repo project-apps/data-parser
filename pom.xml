@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.parser</groupId>
 	<artifactId>data-parser</artifactId>
-	<version>1.0.RELEASE</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 	<name>${project.artifactId}</name>
 	<description>Data parser</description>
